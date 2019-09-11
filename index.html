@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head. -->
+    <title>Roommate Expense Calculator by Jim Hinckley</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Capriola&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>&#128113; Roommate Expense Calculator &#127968;</h1>
+
+    <form id="calcform">
+      <h3>Enter a Monthly Total for Each Item</h3>
+      <p>Rent&nbsp; $<input id="rent" type="number" min="0"></input></p>
+      <p>Electricity&nbsp; $<input id="elec" type="number" min="0"></input></p>
+      <p>Infotech&nbsp; $<input id="tech" type="number" min="0"></input></p>
+      <p>Heat&nbsp; $<input id="heat" type="number" min="0"></input></p>
+      <p>&#128105; # of Roommates Sharing Expenses: <input id="count" type="number" min="2" step="1"> &#128104; <span id="mototal"></span></p>
+      <p id="totper"></p>
+      <button type="button" id="calcbutton">Calculate</button>
+      <button type="button" id="clearbutton">Clear Form</button>
+    </form>
+    <p id="extra">This app created by <a href="mailto:jimhinckley1@gmail.com">Jim Hinckley</a>, a web developer who's easy to work with.</p>
+
+    <script type="text/javascript" src="main.js">
+  </body>
+</html>

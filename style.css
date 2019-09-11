@@ -1,0 +1,80 @@
+body {
+  margin:0 auto;
+  max-width:660px;
+  font-family: 'Capriola', sans-serif;
+  background-color:#c6f5ff;
+}
+
+h1 {
+  font-size:2.0rem;
+  text-align:center;
+  padding-bottom:0.4em;
+  border-bottom:1px solid #000;
+}
+h3 { font-size:1.4rem;
+}
+
+#calcform {
+  margin:0 auto;
+  padding:0 18%
+}
+#calcform p {
+  margin-left:6%;
+}
+#calcform p:hover {
+  color:red;
+}
+input { width:70px;
+}
+
+#count {
+  width:36px;
+}
+
+#mototal {
+  display:none;
+  font-size:104%;
+  padding-top:7px;
+}
+
+#totper {
+  display:none;
+  margin-top:0;
+  padding:0.7em 0 0.7em 1.5%;
+  font-size:108%;
+  border:2px dashed #7ae8ff;
+  background-color:#fff;
+}
+#calcbutton {
+  color:#fff;
+  background-color:#47dfff;
+  margin-left:6%;
+  padding:5px 10px;
+  font-family: 'Capriola', sans-serif;
+  font-size:102%;
+  border-radius:12px;
+}
+#calcbutton:hover {
+  background-color:#2effbd;
+}
+
+#clearbutton {
+  display:inline-block;
+  margin-left:20%;
+  background-color:lightgray;
+  padding:5px 10px;
+  font-family: 'Capriola', sans-serif;
+  font-size:94%;
+  border-radius:12px;
+}
+#clearbutton:hover {
+  background-color:#f5ffc6;
+}
+
+#extra {
+  font-size:78%;
+  text-align:center;
+  margin:2.4em auto 1em auto;
+  padding-top:1.5em;
+  border-top:1px solid #000;
+}
